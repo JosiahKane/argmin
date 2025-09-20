@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Replace use of unmaintained instant crate with web_time (@airwoodix, #539)
 * Support WASM without javascript by making rand an optional dependency (@rikhuijzer, #583)
+* Minor optimisations and clippy fixes [@pacak, #483; @jjbayer, #488; @0e4ef622, #504; @stefan-k, #531, #596, @josiahkane, #603, #617]
+* Internal CI fixes [@stefan-k, #573, #582]
 
 ### Fixed
 
@@ -34,7 +36,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Adjust Solver to make it object safe [@jjbayer, #487]
 * Update the version of rand to address compatibility concerns with future Rust editions (@josiahkane, #607)
-* Minor optimisations and clippy fixes [@pacak, #483; @jjbayer, #488; @0e4ef622, #504; @stefan-k, #531, #596, @josiahkane, #603]
+
+## [argmin-testfunctions unreleased]
+
+### Changed
+
+* Updated documentation to render mathematical notation with LaTeX. (@airwoodix, #530, #581)
+* [BREAKING] Fixed spelling from McCorminck to McCormick including in file and symbol names. (@airwoodix #581; @josiahkane, #616)
 
 ### Fixed
 
